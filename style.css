@@ -1,0 +1,61 @@
+*{
+    
+    margin: 0px;
+    padding: 0px;
+}
+
+h1{
+    text-align: center;
+}
+.again {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    background-color: gainsboro;
+    padding: 15px;
+}
+.between {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+.number {
+    text-align: center;
+    height: 100px;
+    width: 120px;
+    background-color:white;
+    color: rgb(41, 41, 41);
+    font-size: 40px;
+    padding: 20px;
+    position: relative;
+    left: 45%;
+    right: auto;
+    transform: translate(-50%, 50%);
+}
+.right {
+    margin-top: 40px;
+    position:absolute;
+    right: 60px;
+}
+.left {
+    margin-top: 40px;
+    position: absolute;
+    left: 60px;
+    display:block;
+}
+.guess {
+    height: 100px;
+    width: 200px;
+    background-color: rgb(41, 41, 41);
+    border: 2px solid white;
+    color: aliceblue;
+    font-size: 40px;
+    text-align: center;
+}
+.check {
+    background-color: white;
+    padding: 20px;
+}
+.message {
+    margin-bottom: 80px;
+}
